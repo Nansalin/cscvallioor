@@ -2,3 +2,4 @@ use nansalin
 show collections;
 show dbs;
 db.student.insertOne({'regno':11901,'name':'nansalin','course':'ADDA'});
+db.student.aggregate({$group:{_id:'$course',x:{$min:'$fees'}}})

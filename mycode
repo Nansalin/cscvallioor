@@ -1,3 +1,4 @@
 import matplotlib.pyplot as plt
 class CreatePlot:
-  pass
+  def __init__(self):
+      self.data={'name':'Nansalin",'age':22,'mob':9489485054}
